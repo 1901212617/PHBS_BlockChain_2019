@@ -1,6 +1,6 @@
 # **Homework1** 
 
-陆雨田 Lu Yutian   1901212617\
+陆雨田 Lu Yutian   1901212617
 
 ##  Summary
 
