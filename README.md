@@ -1,6 +1,6 @@
 # **Homework1** 
 
-陆雨田 Lu Yutian   1901212617
+陆雨田 Lu Yutian   1901212617\
 
 ##  Summary
 
@@ -32,8 +32,7 @@
 
 ##  Test
 
-1.First, I imported 3external jars:
-![avatar](/image/import.png)
+1.First, I imported 3external jars:![import](C:\Users\10360\Desktop\import.jpg)
 
 (**notice:**First I just import the first and the third one offered by TA, but I find that hamcrest can be used, so I add the library to it.)
 
@@ -74,6 +73,7 @@ The input is invalid, we give the input a wrong hash, so it can not find the pre
 
 
 ## Result
-![avatar](/image/result.png)
+
+![result](C:\Users\10360\Desktop\result.png)
 
 All passed the result.
