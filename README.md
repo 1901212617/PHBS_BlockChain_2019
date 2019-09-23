@@ -49,7 +49,7 @@ Create a transaction from A to C. A gives its all value to B, and uses its priva
 
 ### Test2:
 
-It will be the transaction from A to B and then the B to C. A uses the its private key to sign the first transaction and B uses its private key to sign the second transaction. So, these two transactions will be valid.
+It will be the transaction from A to B and then the B to C. A uses the its private key to sign the first transaction and B uses its private key to sign the second transaction.Double spending will not happen. So, these two transactions will be valid.
 
 ### Test 3: 
 
