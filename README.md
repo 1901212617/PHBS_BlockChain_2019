@@ -20,7 +20,7 @@
 
    We should decide whether a transaction is valid or not. Based on the information provided:
 
- ![流程图](C:\Users\10360\Desktop\流程图.png)
+ ![流程图](https://github.com/YutianNancy/PHBS_BlockChain_2019/blob/master/homeworkA/流程图.png)
 
 ​       a transaction meets these five criteria can it be verified valid. 
 
