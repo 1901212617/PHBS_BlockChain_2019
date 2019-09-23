@@ -39,7 +39,7 @@
 
 2.And then, I learnt how to use junit, it has ***@before @test @after,*** and each one has its own function.
 
-3.邓珂雅 has taught me how to use the junit to create a test. So my logic might be similar to hers. First, we will create three key pair for each (private key, public key)., and we give each one a random hash and a random value from 0 to 10.
+3.邓珂雅 has taught me how to use the junit to create a test. So my logic might be similar to hers. First, we will create three key pair for each (private key, public key), and we give each one a random hash and a random value from 0 to 10.
 
  
 
