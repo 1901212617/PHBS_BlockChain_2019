@@ -1,6 +1,6 @@
 # **Homework1** 
 
-陆雨田 Lu Yutian   1901212617\
+陆雨田 Lu Yutian   1901212617
 
 ##  Summary
 
@@ -22,7 +22,7 @@
 
  ![流程图](https://github.com/YutianNancy/PHBS_BlockChain_2019/blob/master/homeworkA/流程图.png)
 
-​       a transaction meets these five criteria can it be verified valid. 
+   a transaction meets these five criteria can it be verified valid. 
 
 3. ***public Transaction[] handleTxs(Transaction[] possibleTxs) {}*** 
 
@@ -32,7 +32,7 @@
 
 ##  Test
 
-1.First, I imported 3external jars:![import](C:\Users\10360\Desktop\import.jpg)
+1.First, I imported 3external jars:![import](https://github.com/YutianNancy/PHBS_BlockChain_2019/blob/master/homeworkA/import.jpg)
 
 (**notice:**First I just import the first and the third one offered by TA, but I find that hamcrest can be used, so I add the library to it.)
 
@@ -74,6 +74,6 @@ The input is invalid, we give the input a wrong hash, so it can not find the pre
 
 ## Result
 
-![result](C:\Users\10360\Desktop\result.png)
+![result](https://github.com/YutianNancy/PHBS_BlockChain_2019/blob/master/homeworkA/result.png)
 
 All passed the result.
