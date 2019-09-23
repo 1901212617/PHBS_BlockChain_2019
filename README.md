@@ -32,7 +32,8 @@
 
 ##  Test
 
-1.First, I imported 3external jars:![import](C:\Users\10360\Desktop\import.jpg)
+1.First, I imported 3external jars:
+<p align="center">< img width="40%" src="image/import.jpg" /></p >
 
 (**notice:**First I just import the first and the third one offered by TA, but I find that hamcrest can be used, so I add the library to it.)
 
@@ -73,7 +74,6 @@ The input is invalid, we give the input a wrong hash, so it can not find the pre
 
 
 ## Result
-
-![result](C:\Users\10360\Desktop\result.png)
+<p align="center">< img width="40%" src="image/result.jpg" /></p >
 
 All passed the result.
