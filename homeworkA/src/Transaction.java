@@ -9,6 +9,7 @@ import java.util.Map;
 
 public class Transaction {
 
+
     public class Input {
         /** hash of the Transaction whose output is being used */
         public byte[] prevTxHash;
@@ -253,5 +254,16 @@ public class Transaction {
         } catch (SignatureException e) {
             e.printStackTrace();
         }
+    }
+
+    public void makesign(KeyPair key, Transaction tx, int outputIndex) throws InvalidKeyException, NoSuchAlgorithmException, SignatureException {
+
+        Signature sig = Signature.getInstance("SHA256withRSA");
+        sig.initSign(key.getPrivate());
+        sig.update(tx.getRawDataToSign(outputIndex));
+        byte[] a = sig.sign();
+        tx.addSignature(a,outputIndex);
+        tx.finalize();
+        System.out.println(tx);
     }
 }

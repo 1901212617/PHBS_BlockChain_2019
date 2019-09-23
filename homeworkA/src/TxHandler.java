@@ -32,10 +32,10 @@ public class TxHandler {
         int m = tx.numOutputs();
         double insum = 0;
         double outsum = 0;
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n; ++i) {
             Transaction.Input in = tx.getInput(i);
             UTXO u = new UTXO(in.prevTxHash, in.outputIndex);
-            System.out.println(utxoPool);
+          //  System.out.println(utxoPool);
             if (!utxoPool.contains(u)) {
              //   System.out.println(u);
                 return false;
@@ -51,7 +51,7 @@ public class TxHandler {
                 txused.add(u);
             }
         }
-        for (int j = 0; m < j; j++) {
+        for (int j = 0; j < m; ++j) {
             Transaction.Output output = tx.getOutput(j);
             outsum = outsum + output.value;
             if (output.value < 0) {
@@ -102,8 +102,6 @@ public class TxHandler {
         return transan;
     }
 
-    public Object verify(UTXO utxo) {
-        return utxoPool.contains(utxo);
-    }
+
 }
 
