@@ -11,7 +11,7 @@ In this project, we are required to generate a genesis block, then the miner min
 First, we create a private BlockNode Class
 
 ```
-`private class BlockNode {    
+private class BlockNode {    
 public Block b;    
 public BlockNode parent;    
 public ArrayList<BlockNode> children;    
@@ -25,12 +25,12 @@ public BlockNode(Block b, BlockNode parent, UTXOPool uPool) {
         if (parent != null) {            
             height = parent.height + 1;    //也就是离创世块的距离            
             parent.children.add(this);   //相当于是创世块        }` 
-        `else {            
+        else {            
         	height = 1;        
         	}`
-`}    
+}    
 public UTXOPool getUTXOPoolCopy() {        return new UTXOPool(uPool);    }`
-`}`
+}`
 ```
 
 In a BlockNode, it contains a block, the parent of this block, which is its previous block, and the children of this block, which is the next block of this block, and the UTXOPool for this block. We will this class later.
@@ -97,7 +97,7 @@ We also test  whether the these transaction is in the UTXOpool.(Transaction belo
 
 We will test the valid fork.
 
-![img](file:///C:\Users\10360\Documents\Tencent Files\1036023145\Image\C2C\$_3W~YCW$Y{GN@O{U]TJV4P.png)
+![img](https://github.com/YutianNancy/PHBS_BlockChain_2019/blob/master/Homework2/QQ图片20191020214858.png)
 
 First, we add block to the block chain.
 
