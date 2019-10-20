@@ -97,7 +97,7 @@ We also test  whether the these transaction is in the UTXOpool.(Transaction belo
 
 We will test the valid fork.
 
-![img](https://github.com/YutianNancy/PHBS_BlockChain_2019/blob/master/Homework2/QQ图片20191020214858.png)
+![img](https://github.com/YutianNancy/PHBS_BlockChain_2019/blob/master/Homework2/QQ图片20191020214948.png)
 
 First, we add block to the block chain.
 
@@ -111,7 +111,7 @@ Finally, we add the block2 after the block1, and it becomes the longest chain, a
 
 We will test valid and invalid blockchain fork when considering CUT_OFF_AGE.
 
-![img](file:///C:\Users\10360\Documents\Tencent Files\1036023145\Image\C2C\~34L]%C0$8SRA0~$AC@O$P1.png)
+![img](https://github.com/YutianNancy/PHBS_BlockChain_2019/blob/master/Homework2/QQ图片20191020214858.png)
 
 When considering CUT_OFF_AGE, blocka is valid and blockb is not valid.
 
