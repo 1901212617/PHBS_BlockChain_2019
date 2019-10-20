@@ -127,5 +127,5 @@ We will test when we use a transaction in a block, it will be removed from the t
 
 All tests have passed.
 
-![img](file:///C:\Users\10360\Documents\Tencent Files\1036023145\Image\C2C\{[U~~9[9P%ZQ_{R0TY4)LP7.png)
+![img](https://github.com/YutianNancy/PHBS_BlockChain_2019/blob/master/Homework2/Result.png)
 
