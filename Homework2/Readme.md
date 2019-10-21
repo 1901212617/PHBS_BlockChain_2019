@@ -24,13 +24,13 @@ public BlockNode(Block b, BlockNode parent, UTXOPool uPool) {
         this.uPool = uPool;        
         if (parent != null) {            
             height = parent.height + 1;    //也就是离创世块的距离            
-            parent.children.add(this);   //相当于是创世块        }` 
-        `else {            
+            parent.children.add(this);   //相当于是创世块        }
+        else {            
         	height = 1;        
-        	}`
-`}    
-public UTXOPool getUTXOPoolCopy() {        return new UTXOPool(uPool);    }`
-`}`
+        	}
+}    
+public UTXOPool getUTXOPoolCopy() {        return new UTXOPool(uPool);    }
+}
 ```
 
 In a BlockNode, it contains a block, the parent of this block, which is its previous block, and the children of this block, which is the next block of this block, and the UTXOPool for this block. We will this class later.
