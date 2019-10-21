@@ -25,13 +25,13 @@ public BlockNode(Block b, BlockNode parent, UTXOPool uPool) {
         if (parent != null) {            
             height = parent.height + 1;    //也就是离创世块的距离            
             parent.children.add(this);   //相当于是创世块        }` 
-        `else {            
+        else {            
         	height = 1;        
-        	}`
-`}    
+        	}
+}    
 public UTXOPool getUTXOPoolCopy() {        return new UTXOPool(uPool);    }`
-`}`
-```
+}
+
 
 In a BlockNode, it contains a block, the parent of this block, which is its previous block, and the children of this block, which is the next block of this block, and the UTXOPool for this block. We will this class later.
 
@@ -97,7 +97,7 @@ We also test  whether the these transaction is in the UTXOpool.(Transaction belo
 
 We will test the valid fork.
 
-![img](file:///C:\Users\10360\Documents\Tencent Files\1036023145\Image\C2C\$_3W~YCW$Y{GN@O{U]TJV4P.png)
+![img](https://github.com/YutianNancy/PHBS_BlockChain_2019/blob/master/Homework2/QQ图片20191020214948.png)
 
 First, we add block to the block chain.
 
@@ -111,7 +111,7 @@ Finally, we add the block2 after the block1, and it becomes the longest chain, a
 
 We will test valid and invalid blockchain fork when considering CUT_OFF_AGE.
 
-![img](file:///C:\Users\10360\Documents\Tencent Files\1036023145\Image\C2C\~34L]%C0$8SRA0~$AC@O$P1.png)
+![img](https://github.com/YutianNancy/PHBS_BlockChain_2019/blob/master/Homework2/QQ图片20191020214858.png)
 
 When considering CUT_OFF_AGE, blocka is valid and blockb is not valid.
 
@@ -121,11 +121,11 @@ We will add Transaction and remove Transaction and then test Transaction Pool.
 
 **Test12:**
 
-We will test when we use a transaction in a block, it will be removed from the transaction pool.
+We will test when we use a transaction in a block, it will be removed from the transaction pool. And the amount of transactions in the Transaction Pool will be correct.
 
 ## Result
 
 All tests have passed.
 
-![img](file:///C:\Users\10360\Documents\Tencent Files\1036023145\Image\C2C\{[U~~9[9P%ZQ_{R0TY4)LP7.png)
+![img](https://github.com/YutianNancy/PHBS_BlockChain_2019/blob/master/Homework2/Result.png)
 
