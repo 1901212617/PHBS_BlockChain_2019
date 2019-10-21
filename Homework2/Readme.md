@@ -24,12 +24,12 @@ public BlockNode(Block b, BlockNode parent, UTXOPool uPool) {
         this.uPool = uPool;        
         if (parent != null) {            
             height = parent.height + 1;    //也就是离创世块的距离            
-            parent.children.add(this);   //相当于是创世块        }` 
+            parent.children.add(this);   //相当于是创世块        } 
         else {            
         	height = 1;        
         	}
 }    
-public UTXOPool getUTXOPoolCopy() {        return new UTXOPool(uPool);    }`
+public UTXOPool getUTXOPoolCopy() {        return new UTXOPool(uPool);    }
 }
 
 
