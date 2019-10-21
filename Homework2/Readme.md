@@ -121,7 +121,7 @@ We will add Transaction and remove Transaction and then test Transaction Pool.
 
 **Test12:**
 
-We will test when we use a transaction in a block, it will be removed from the transaction pool.
+We will test when we use a transaction in a block, it will be removed from the transaction pool. So, it will return the correct number of transactions.
 
 ## Result
 
