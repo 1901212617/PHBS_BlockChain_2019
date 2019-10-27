@@ -37,7 +37,7 @@
 
   As the problem we have mentioned above, we decided to develop a website based on Ethereum. The design of the website may use HTML+CSS+Javascript. In our design, each buyer is an account and can make comments of the goods he or she has purchased. The main interface is like this:
 
-  ![](F:\课程资料\module1\block chain and digital currency\project\图1.png)
+  ![](https://github.com/YutianNancy/PHBS_BlockChain_2019/blob/master/Project/Figure%201.jpg)
 
   When a buyer makes an comment, it is a transaction. It will be added to the block after it will stimulate the running of the smart contract. And the smart contract judges whether this comment is valid or not and will package all these information. An comment might be like this:
 
