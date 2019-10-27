@@ -41,7 +41,7 @@
 
   When a buyer makes an comment, it is a transaction. It will be added to the block after it will stimulate the running of the smart contract. And the smart contract judges whether this comment is valid or not and will package all these information. An comment might be like this:
 
-  ![](F:\课程资料\module1\block chain and digital currency\project\图2.png)
+  ![](https://github.com/YutianNancy/PHBS_BlockChain_2019/blob/master/Project/Figure%202.jpg)
 
   The reason why we use Goods ID is that we decide to develop a search function. When a buyer wants to buy a specific goods, he or she might search the Goods ID, like the key in database.
 
